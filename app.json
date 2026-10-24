@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Lumine",
+    "slug": "loja-joias-rli",
+    "version": "1.0.0",
+    "scheme": "lojajoiasrli",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#221F3D"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#221F3D"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-font"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/icon.png"
+    },
+    "experiments": {
+      "baseUrl": "/Raquel"
+    }
+  }
+}
